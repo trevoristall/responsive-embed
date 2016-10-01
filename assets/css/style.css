@@ -1,0 +1,9 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.framewrap {
+  display: block;
+  margin-bottom: 2em;
+}

@@ -1,23 +1,3 @@
-<div class="container">
-  <div class="framewrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/AIdslaUj9wg" frameborder="0" allowfullscreen></iframe></div>
-  <div class="framewrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/AIDslaUj9wg" frameborder="0" allowfullscreen></iframe></div>
-  <div class="framewrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/AIaslaUj9wg" frameborder="0" allowfullscreen></iframe></div>
-  <div class="framewrap"><iframe width="560" height="315" src="https://www.youtube.com/embed/AIrslaUj9wg" frameborder="0" allowfullscreen></iframe></div>
-</div>
-
-<style>
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.framewrap {
-  display: block;
-  margin-bottom: 2em;
-}
-</style>
-
-<script>
 (function(window, document, undefined) {
   'use strict';
 
@@ -80,4 +60,3 @@
     });
   }
 })(window, document, undefined);
-</script>
