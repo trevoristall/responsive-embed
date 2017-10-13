@@ -40,14 +40,14 @@
   // If css calc() is supported, use that instead of injecting DIVs
   if (cssCalc()) {
     forEach(filtered, function(i, iframe) {
-      if (!iframe.classList.contains('superembed-ignore')) {
+      if (!iframe.classList.contains('embed-ignore')) {
         iframe.setAttribute('style', 'width: 100%; top: 5px; margin-bottom: -5px; height: calc(100vw * (9/16));');
       }
     });
     // If calc() is NOT supported, inject parent div and apply styles to both the parent and child embed
   } else {
     forEach(filtered, function(i, iframe) {
-      if (!(iframe.classList.contains('superembed-ignore'))) {
+      if (!(iframe.classList.contains('embed-ignore'))) {
         // Add parent element
         var parent = iframe.parentNode;
         var wrapper = document.createElement('div');
